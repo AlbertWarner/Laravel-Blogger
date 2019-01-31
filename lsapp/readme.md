@@ -7,6 +7,27 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## Installation Instructions
+Create a MySQL database for the project
+mysql -u root -p
+
+From the projects root run cp .env.example .env
+Configure your .env file
+Run composer update from the projects root folder
+
+From the projects root folder run:
+
+From the projects root folder run php artisan key:generate
+From the projects root folder run php artisan migrate
+From the projects root folder run composer dump-autoload
+
+Compile the front end assets with npm steps or yarn steps.
+
+Using NPM:
+From the projects root folder run npm install
+From the projects root folder run npm run dev or npm run production
+You can watch assets with npm run watch
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
