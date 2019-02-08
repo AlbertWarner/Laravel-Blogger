@@ -22,7 +22,7 @@ From the projects root folder run php artisan migrate
 
 From the projects root folder run composer dump-autoload
 
-Compile the front end assets with npm steps or yarn steps.
+Compile the front end assets with npm steps.
 
 Using NPM:
 
